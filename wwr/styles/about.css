@@ -42,32 +42,38 @@ nav a:hover {
 
 .hero img {
     display: block;
-    width: auto;
-    height: auto;
+    width: 103%;
+    height: 600px;
     /*top: 0px;*/
     left: 0px;
+    object-fit: cover;
 }
 
 .hero h1 {
     position: absolute;
-    top: 10%;
-    left: 40%;
-    transform: translate(-50%, -50%);
-    color: var(--secondary-color);
-    font-size: 3rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 1rem;
+    top: 5%;
+    width: 100%;
+    background: black;
+    font-size: 4rem;
+    opacity: 0.7;
 }
 
 .article {
     position: absolute;
     text-align: justify;
 	background:#4567aa;
-	padding: 0.15rem;*/
+	padding: 0.15rem;
 	box-shadow: 0 0 30px #111;
-    top: 400px;
+    top: 300px;
     left: 50px;
-    right: 200px;
+    right: 50px;
     opacity: 0.9;
+}
+
+.article h3 {
+    opacity: 1;
 }
 
 .article img {
@@ -78,9 +84,6 @@ nav a:hover {
     opacity: 1;
 }
 
-.article h3 {
-    opacity: 1;
-}
 
 section {
     margin-top: 50px;
