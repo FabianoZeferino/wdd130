@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #333;
+    --secondary-color: #fff;
+    --accent-color: #ff6347;
+    --hero-height: 100vh;
+    --max-width: 1200px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+nav a {
+    color: var(--primary-color);
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    color: var(--accent-color);
+}
+
+.hero {
+    position: relative;
+    /*top: 0px;
+    left: 0px;*/
+}
+
+.hero img {
+    display: block;
+    width: auto;
+    height: auto;
+    /*top: 0px;*/
+    left: 0px;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: var(--secondary-color);
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.article {
+    position: absolute;
+    text-align: justify;
+	background:#4567aa;
+	padding: 0.15rem;*/
+	box-shadow: 0 0 30px #111;
+    top: 400px;
+    left: 50px;
+    right: 200px;
+    opacity: 0.9;
+}
+
+.article img {
+    float: right;
+    clear: none;
+    width:150px;
+    height:150px;
+    opacity: 1;
+}
+
+.article h3 {
+    opacity: 1;
+}
+
+section {
+    margin-top: 50px;
+}
+
+section h2 {
+    text-align:center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-top: 1px solid var(--primary-color);
+}
+
+footer a {
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
