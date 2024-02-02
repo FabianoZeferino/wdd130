@@ -1,6 +1,7 @@
 "# wdd130" 
 
 justify-content:
+
 justify-content: flex-start : Items align to the left side of the container.
 justify-content: flex-end : Items align to the right side of the container.
 justify-content: center : Items align at the center of the container.
