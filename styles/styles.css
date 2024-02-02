@@ -110,6 +110,16 @@ footer{
   align-items: center;
 }
 
+header, footer, .grid {
+    margin: 0 auto;
+    max-width: 840px;
+}
+
+main {
+    display: grid;
+    align-items: center;
+}
+
 
 body{
     font-size: 16px;
