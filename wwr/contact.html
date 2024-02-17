@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content=" Contact Us content page">
+    <meta name="author" content="Fabiano Zeferino">
+    <title>Zef Rafting - Contact Us</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="White Water Rafting Logo">
+        <nav>
+            <ul class="navigation">
+                <li> <a href="site-plan-rafting.html">Home</a></li>
+                <li> </li><a href="about.html">About</a></li>
+                <li> </li><a href="trips.html">Trips</a></li>
+                <li> </li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="company-info">
+            <h2>Company Information</h2>
+            <p>123 Rafting Street</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>Email: info@raftingcompany.com</p>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2171.798319008372!2d-46.77511495374775!3d-23.72901338988144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce4d963bb57b8d%3A0x1caead9d205ecb0e!2sR.%20Lic%C3%ADnio%20Felini%2C%20734%20-%20Ch%C3%A1cara%20Fl%C3%B3rida%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004949-170!5e0!3m2!1spt-BR!2sbr!4v1708114468959!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        <section class="employee-profiles">
+            <h2>Meet Our Team</h2>
+            <div class="profile">
+                <img src="images/employee1.jpg" alt="Employee 1">
+                <h3>James Smith</h3>
+                <p>Reservation Specialist</p>
+            </div>
+            <div class="profile">
+                <img src="images/employee2.jpg" alt="Employee 2">
+                <h3>Employee 2</h3>
+                <p>Customer Service Representative</p>
+            </div>
+            <div class="profile">
+                <img src="images/employee3.jpg" alt="Employee 3">
+                <h3>Fabiano Zeferino</h3>
+                <p>Website Developer</p>
+            </div>
+        </section>
+        <section class="contact-form">
+            <h2>Get in Touch</h2>
+            <form action="submit.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="purpose">Purpose:</label>
+                <div class="radio-buttons">
+                    <input type="radio" id="general" name="purpose" value="general" required>
+                    <label for="general">General Inquiry</label>
+                    <br>
+                    <input type="radio" id="reservation" name="purpose" value="reservation">
+                    <label for="reservation">Reservation Question</label>
+                    <br>
+                    <input type="radio" id="website" name="purpose" value="website">
+                    <label for="website">Website Suggestion</label>
+                </div>
+                <br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+                
+                <input type="checkbox" id="newsletter" name="newsletter">
+                <label for="newsletter">Please subscribe me to the monthly newsletter</label><br>
+                
+                <input type="submit" value="Submit">
+    </main>
+    <footer>
+        <p>&copy; White Water Rafting Company. All rights reserved. Designed by 🖥️ Fabiano Luiz Zeferino, São Paulo
+            Brazil</p>
+        <a href="#"><img src="images/facebook-icon.png" alt="Facebook"></a>
+        <a href="#"><img src="images/twitter-icon.png" alt="Twitter"></a>
+        <a href="#"><img src="images/instagram-icon.png" alt="Instagram"></a>
+    </footer>
+</body>
+
+</html>
