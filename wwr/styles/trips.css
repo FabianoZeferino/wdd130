@@ -1,0 +1,40 @@
+.trip-body {
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+}
+.cta {
+background-color: #007BFF;
+color: white;
+padding: 10px 20px;
+text-decoration: none;
+border-radius: 5px;
+width: 100%;
+}
+.cta:hover {
+background-color: #0056B3;
+}
+.trip-description {
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+width: 100%;
+}
+.trip-card {
+background-color: #F8F9FA;
+padding: 20px;
+border-radius: 5px;
+width: calc(33.333% - 20px);
+}
+.trip-card img {
+width: 100%;
+height: auto;
+}
+.trip-table {
+width: calc(66.666% - 20px);
+}
+@media (max-width: 768px) {
+.trip-card, .trip-table {
+    width: 100%;
+}
+}
